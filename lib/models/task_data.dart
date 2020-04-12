@@ -2,7 +2,7 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:todoeyflutter/models/task.dart';
 
-class TaskData extends ChangeNotifier {
+class TaskData with ChangeNotifier {
   List<Task> _tasks = [
     Task(name: 'krkr'),
     Task(name: 'dkfkfll'),
