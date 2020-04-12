@@ -3,11 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:todoeyflutter/models/task.dart';
 
 class TaskData with ChangeNotifier {
-  List<Task> _tasks = [
-    Task(name: 'krkr'),
-    Task(name: 'dkfkfll'),
-    Task(name: 'oppae'),
-  ];
+  List<Task> _tasks = [];
 
   int get taskCount {
     return _tasks.length;

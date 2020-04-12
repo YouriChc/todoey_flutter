@@ -1,6 +1,6 @@
 import 'package:provider/provider.dart';
 
-class Task extends ChangeNotifierProvider {
+class Task {
   final String name;
   bool isDone;
 
